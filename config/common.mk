@@ -1,8 +1,6 @@
 # Allow vendor/extra to override any property by setting it first
 $(call inherit-product-if-exists, vendor/extra/product.mk)
 $(call inherit-product-if-exists, vendor/lineage/config/tenx.mk)
-# Google Apps
-$(call inherit-product, vendor/gms/products/gms.mk)
 # Elegance
 $(call inherit-product-if-exists, vendor/overlays/Elegance/elegance.mk)
 # Themedicons
